@@ -1,0 +1,49 @@
+/*laptop --- 980px to 1199px*/
+
+@media screen and (max-width: 1199px){
+	.container{
+		width: 980px;
+	}
+}
+
+/*tablets --- 768px to 979px*/
+
+@media screen and (max-width: 979px){
+	.container{
+		width: 768px;
+	}
+	.box{
+		padding: 5px;
+	}	
+	.box img{
+		height: 200px;
+	}
+}
+
+/*mobiles --- 320px to 767px*/
+
+@media screen and (max-width: 767px){
+	.container{
+		width: 100%;
+	}
+	.logo{
+		text-align: center;
+	}
+	nav ul li{
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+	.dropdown-content{
+	margin: 0px 0px 0px 120px;
+	}
+	.box, iframe{
+		width: 100%;
+		float: none;
+		display: block;
+	}	
+	footer h2{
+		font-size: 14px;
+		text-align: center;
+	}
+}
